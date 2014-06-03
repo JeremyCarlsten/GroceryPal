@@ -1,6 +1,6 @@
 package grocerypal
 
-class Location {
+class Address {
 
   String address1
   String address2

@@ -4,7 +4,7 @@ class Store {
 
   String name
 
-  static hasMany = [products: Product, locations: Location]
+  static hasMany = [products: Product, locations: Address]
 
 
     static constraints = {
