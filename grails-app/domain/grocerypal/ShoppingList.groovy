@@ -10,4 +10,10 @@ class ShoppingList {
     name(blank: false, nullable: false, size: 1..100)
     description(size: 1..255)
   }
+
+
+  @Override
+  public String toString() {
+    name
+  }
 }

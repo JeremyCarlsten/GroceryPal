@@ -12,4 +12,9 @@ class Store {
       products(nullable: false)
       locations(nullable: false)
     }
+
+  @Override
+  public String toString() {
+    "$name, $locations"
+  }
 }
